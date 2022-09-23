@@ -1,0 +1,15 @@
+[package]
+name = "Ion_FoC"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+assert_cmd = "2.0.4"
+ntest_timeout = "0.8.1"
+predicates = "2.1.1"
+structopt = "0.3.26"
+
+[dev-dependencies]
+ntest = "*"
